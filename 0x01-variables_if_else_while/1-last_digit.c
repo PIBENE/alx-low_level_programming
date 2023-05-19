@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more code */
 /**
+* main - Entry point
+* Description
 * This is just one way to complete the source code
+* Return: Always 0 (Success)
 */
 int main(void)
 {
