@@ -1,8 +1,8 @@
 #include <stdio.h>
-/* 
-* Description:
-* The main function is the entry point of the program.
-* It takes no arguments and returns an integer value.
+/**
+* main - Entry point of the program
+*
+* Return: 0 if successful
 */
 int main(void)
 {
@@ -12,8 +12,5 @@ putchar(c);
 for (c = 'A'; c <= 'Z'; c++)
 putchar(c);
 putchar('\n');
-/* 
-* Return 0 to indicate that the program completed successfully 
-*/
 return (0);
 }
