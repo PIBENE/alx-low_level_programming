@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
-* main function, as required
-*  The main function is the entry point of a C program.
-*  return 0 to indicate that the program completed successfully
+/* 
+* Description:
+* The main function is the entry point of the program.
+* It takes no arguments and returns an integer value.
 */
 int main(void)
 {
@@ -12,5 +12,8 @@ putchar(c);
 for (c = 'A'; c <= 'Z'; c++)
 putchar(c);
 putchar('\n');
+/* 
+* Return 0 to indicate that the program completed successfully 
+*/
 return (0);
 }
